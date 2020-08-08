@@ -1,0 +1,79 @@
+body {
+  margin: 0 auto;
+  color: hsl(240, 38%, 20%);
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+}
+
+p span {
+  color: hsl(240, 18%, 77%);
+  font-weight: 300;
+}
+.testimonial {
+  background-image: url("../images/pattern-bg.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 30px 30px 0;
+}
+.testimonial img {
+  width: 78%;
+  margin-top: 9%;
+  border-radius: 3%;
+  position: relative;
+}
+
+.testimonial-text {
+  margin-top: 15%;
+  background: url("../images/pattern-quotes.svg") no-repeat;
+  background-size: 22%;
+  background-position: top center;
+}
+
+.main-text {
+  position: relative;
+  padding-top: 10%;
+}
+/* Prev/Next Controls */
+
+.controls {
+  position: absolute;
+  bottom: 52%;
+  width: 25%;
+  left: 40%;
+  padding: 3% 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 40%;
+  background-color: white;
+}
+
+.prev, .next {
+  width: 80%;
+}
+
+/* Footer */
+.attribution {
+  height: 100px;
+  font-size: 11px;
+  background: url("../images/pattern-curve.svg") no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution p {
+  margin: 0 auto;
+  position: relative;
+  top: 70%;
+}
+
+/* Desktop Styles */
+
+@@media (max-width: 1440px) {
+  
+}
